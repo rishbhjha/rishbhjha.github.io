@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devicde-width,initial-scale=1">
+    <title>My Technology Portal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<button onclick=" topFuction() " id="myBtn" title="go to top">Top</button>
+
+<script>
+    window.onscroll =function() {scrollFunction()};
+    function scrollFunction(){
+        if(document.body.scrollTop>50 || document.documentElement.scrollTop>50) {
+            document.getElementById("myBtn").style.display="block";
+        }
+        else{
+            document.getElementById("myBtn").style.display="none";
+
+        }
+    }
+    function topFuction(){
+        document.body.scrollTop=0;
+        document.documentElement.scrollTop=0;
+    }
+</script>
+
+
+
+<!-- Main Header -->
+<header class="main-header">
+    <h1>My Technology Portal</h1>
+</header>
+
+<!-- Main Navigation -->
+<nav class="main-nav">
+    <ul>
+        <li>
+            <a href="index.html" class="active" >
+                <i class="fa fa-home"></i> Home</a>
+        </li>
+        <li>
+            <a href="news.html">
+                <i class="fa fa-newspaper-o"></i> News</a>
+        </li>
+        <li>
+            <a href="gallery.html">
+                <i class="fa fa-image"></i> Gallery</a>
+        </li>
+        <li>
+            <a href="about.html">
+                <i class="fa fa-id-badge"></i> About Us</a>
+        </li>
+        <li>
+            <a href="contact.html">
+                <i class="fa fa-envelope"></i> Contact Us</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Latest News -->
+<section class="latest-news">
+    <p>
+        <span>Latest News:</span>
+        Hello Everyone I Am Rishbh Jha This Is My First Website If You Like This Website So Please Follow My Page
+    </p>
+</section>
+
+<!-- Home News Section -->
+<section class="home-news-section">
+
+    <!-- Laptop News -->
+    <article class="home-news-article">
+        <h2>Laptop News</h2>
+        <p>
+            <img src="images/main_laptop.jpg">
+        </p>
+        <div class="home-news-text">
+        <p>A laptop, also called a notebook computer or just notebook, is a small, portable personal computer with a "clamshell" form factor, having, typically, a thin LCD or LED computer screen mounted on the inside of the upper lid of the "clamshell" and an alphanumeric keyboard on the inside of the lower lid.</p>
+
+        </div>
+    </article>
+
+    <!-- Mobile News -->
+    <article class="home-news-article">
+        <h2>Mobile News</h2>
+        <p>
+            <img src="images/sony%20z.jpg">
+        </p>
+        <div class="home-news-text">
+
+        </div>
+    </article>
+
+    <!-- Tablet News -->
+    <article class="home-news-article">
+        <h2>Tablet News</h2>
+        <p>
+            <img src="images/main_tablet.png">
+        </p>
+        <div class="home-news-text">
+        <p>
+            A tablet computer, commonly shortened to tablet, is a mobile device, typically with a mobile operating system and LCD touchscreen display processing circuitry, and a rechargeable battery in a single thin, flat package. Tablets, being computers, do what other personal computers do, but lack some I/O capabilities that others have.Apple's iPad (left) and Amazon's Fire (right), two popular tablet computers.</p>
+        </div>
+    </article>
+
+</section>
+
+<!-- Break -->
+<div class="break"></div>
+
+<!-- Main News Section -->
+<section class="main-news-section">
+
+    <!-- Laptop News -->
+    <article class="main-news-article">
+        <h2>Apple Macbook Pro Plus 20GB RAM , 5TB HD Released</h2>
+        <div class="zoom">
+            <img src="images/article_laptop.jpg">
+        </div>
+        <p>The MacBook Pro (sometimes abbreviated as MBP)[1] is a line of Macintosh portable computers introduced in January 2006 by Apple Inc. It is the high-end model of the MacBook family and is currently available in 13- and 15-inch screen sizes. A 17-inch version was available between April 2006 and June 2012.</p>
+        <p>The first generation MacBook Pro is externally similar to the PowerBook G4 it replaces, but uses Intel Core processors instead of PowerPC G4 chips. The 15-inch model was introduced first, in January 2006; the 17-inch model followed in April. Both received several updates and Core 2 Duo processors later that year.</p>
+        <p>The product's second iteration, known as the "unibody" model, has a casing made from a single piece of aluminum. It debuted in October 2008 in 13- and 15-inch screen sizes. In January 2009, the 17-inch model was updated with the same unibody design. Subsequent updates brought upgraded Intel Core i5 and i7 processors and introduced Intel's Thunderbolt technology.</p>
+
+    </article>
+
+    <!-- Mobile News -->
+    <article class="main-news-article">
+        <h2>Google Pixel 3 Released in Sep,2018</h2>
+        <div class="zoom">
+            <img src="images/article_mobile.jpg">
+        </div>
+        <p>The back of the Pixel 3 and Pixel 3 XL is made from aluminum with a thin "premium coating" of plastic and has a top section made from glass to provide wireless transmissivity. Unlike the original Pixel XL, which was simply an enlarged version of the Pixel design with no other changes, the Pixel 3 XL's external design differs from its smaller sibling, employing a taller 18:9 P-OLED display instead of the Pixel 2's 16:9 AMOLED.</p>
+        <p>The Pixel 3 and Pixel 3 XL are both powered by the Qualcomm Snapdragon 835, coupled with 4 GB LPDDR4X RAM. They both come in storage options of 64 or 128 GB.
+            Magnified view showing the diagonal PenTile pixel arrangement on the Pixel 3 (not XL)
+            The Pixel 3 has a 5-inch (130 mm) AMOLED display panel with 1920×1080 resolution, coming in at around 441 ppi, while the Pixel 3 XL comes with a 6-inch (150 mm) P-OLED display panel with a 18:9 aspect ratio and a 2880×1440 resolution at 538 ppi.</p>
+    </article>
+
+    <!-- Tablet News -->
+    <article class="main-news-article">
+        <h2>HCL Tablet Released in Sep,2018</h2>
+        <div class="zoom">
+            <img src="images/article_tablet.jpg">
+        </div>
+        <p>A tablet computer, commonly shortened to tablet, is a mobile device, typically with a mobile operating system and LCD touchscreen display processing circuitry, and a rechargeable battery in a single thin, flat package. Tablets, being computers, do what other personal computers do, but lack some I/O capabilities that others have.Apple's iPad (left) and Amazon's Fire (right), two popular tablet computers.</p>
+        <p>The touchscreen display is operated by gestures executed by finger or stylus instead of the mouse, trackpad, and keyboard of larger computers. Portable computers can be classified according to the presence and appearance of physical keyboards. Two species of tablet, the "slate" and "booklet", do not have physical keyboards and usually accept text and other input by use of a virtual keyboard shown on their touchscreen displays.</p>
+    </article>
+
+</section>
+
+<!-- Main Footer -->
+<footer class="main-footer">
+    <h2>Copyright &copy;, My Technology Portal</h2>
+    <p>All Rights Reserved</p>
+    <small>Developed & Maintained by
+        <a href="https://github.com/RISHBHJHA" target="_blank">
+            <i class="fa fa-user-circle"></i>__RISHBH JHA
+        </a>
+    </small>
+</footer>
+
+
+<!-- Latest News -->
+<section class="latest-news">
+    <p>
+        <span>Latest News:</span>
+        Hello Everyone I Am Rishbh Jha This Is My First Website If You Like This Website So Please Follow My Page
+    </p>
+</section>

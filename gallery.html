@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Technology Portal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<button onclick=" topFuction() " id="myBtn" title="go to top">Top</button>
+
+<script>
+    window.onscroll =function() {scrollFunction()};
+    function scrollFunction(){
+        if(document.body.scrollTop>50 || document.documentElement.scrollTop>50) {
+            document.getElementById("myBtn").style.display="block";
+        }
+        else{
+            document.getElementById("myBtn").style.display="none";
+
+        }
+    }
+    function topFuction(){
+        document.body.scrollTop=0;
+        document.documentElement.scrollTop=0;
+    }
+</script>
+
+
+<!-- Main Header -->
+<header class="main-header">
+    <h1>My Technology Portal</h1>
+</header>
+
+<!-- Main Navigation -->
+<nav class="main-nav">
+    <ul>
+        <li>
+            <a href="index.html" >
+                <i class="fa fa-home"></i> Home</a>
+        </li>
+        <li>
+            <a href="news.html">
+                <i class="fa fa-newspaper-o"></i> News</a>
+        </li>
+        <li>
+            <a href="gallery.html" class="active">
+                <i class="fa fa-image"></i> Gallery</a>
+        </li>
+        <li>
+            <a href="about.html">
+                <i class="fa fa-id-badge"></i> About Us</a>
+        </li>
+        <li>
+            <a href="contact.html">
+                <i class="fa fa-envelope"></i> Contact Us</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Latest News -->
+<section class="latest-news">
+    <p>
+        <span>Latest News:</span>
+        Hello Everyone I Am Rishbh Jha This Is My First Website If You Like This Website So Please Follow My Page
+    </p>
+</section>
+
+
+<!-- Gallery Section -->
+<section class="gallery-section">
+
+    <!-- Mobile 1-->
+    <article class="gallery-article">
+        <img src="images/gallery_mobile_1.jpg">
+        <p>I Phone 9</p>
+    </article>
+
+    <!-- Mobile 2-->
+    <article class="gallery-article">
+        <img src="images/gallery_mobile_2.jpg">
+        <p>Foldable Samsung</p>
+    </article>
+
+    <!-- Mobile 3-->
+    <article class="gallery-article">
+        <img src="images/gallery_mobile_3.jpg">
+        <p>Nokia 6 Plus</p>
+    </article>
+
+    <!-- Mobile 4-->
+    <article class="gallery-article">
+        <img src="images/gallery_mobile_4.jpg">
+        <p>Nokia Edge</p>
+    </article>
+
+    <!-- Laptop 1-->
+    <article class="gallery-article">
+        <img src="images/gallery_laptop_1.jpeg">
+        <p>Acer Laptop</p>
+    </article>
+
+    <!-- Laptop 2-->
+    <article class="gallery-article">
+        <img src="images/gallery_laptop_2.jpeg">
+        <p>Hp Spectre</p>
+    </article>
+
+    <!-- Laptop 3-->
+    <article class="gallery-article">
+        <img src="images/gallery_laptop_3.jpg">
+        <p>Hp Pavillion</p>
+    </article>
+
+    <!-- Laptop 4-->
+    <article class="gallery-article">
+        <img src="images/gallery_laptop_4.jpg">
+        <p>Dell Laptop</p>
+    </article>
+
+    <!-- Tablet 1-->
+    <article class="gallery-article">
+        <img src="images/gallery_tablet_1.jpg">
+        <p>Asus Tablet</p>
+    </article>
+
+    <!-- Tablet 2-->
+    <article class="gallery-article">
+        <img src="images/gallery_tablet_2.jpg">
+        <p>Microsoft </p>
+    </article>
+
+    <!-- Tablet 3-->
+    <article class="gallery-article">
+        <img src="images/gallery_tablet_3.jpg">
+        <p>Lenovo Yoga 3 Pro</p>
+    </article>
+
+    <!-- Tablet 4-->
+    <article class="gallery-article">
+        <img src="images/gallery_tablet_4.jpg">
+        <p>Lenovo Windows Tablet</p>
+    </article>
+
+</section>
+
+<!-- Break -->
+<div class="break"></div>
+
+<!-- Main Footer -->
+<footer class="main-footer">
+    <h2>Copyright &copy;, My Technology Portal</h2>
+    <p>All Rights Reserved</p>
+    <small>Developed & Maintained by
+        <a href="https://github.com/RISHBHJHA" target="_blank">
+            <i class="fa fa-user-circle"></i> RISHBH JHA
+        </a>
+    </small>
+</footer>
+
+</body>
+</html>
+
+<!-- Latest News -->
+<section class="latest-news">
+    <p>
+        <span>Latest News:</span>
+        Hello Everyone I Am Rishbh Jha This Is My First Website If You Like This Website So Please Follow My Page
+    </p>
+</section>

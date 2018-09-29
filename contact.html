@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Technology Portal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<button onclick=" topFuction() " id="myBtn" title="go to top">Top</button>
+
+<script>
+    window.onscroll =function() {scrollFunction()};
+    function scrollFunction(){
+        if(document.body.scrollTop>50 || document.documentElement.scrollTop>50) {
+            document.getElementById("myBtn").style.display="block";
+        }
+        else{
+            document.getElementById("myBtn").style.display="none";
+
+        }
+    }
+    function topFuction(){
+        document.body.scrollTop=0;
+        document.documentElement.scrollTop=0;
+    }
+</script>
+
+
+<!-- Main Header -->
+<header class="main-header">
+    <h1>My Technology Portal</h1>
+</header>
+
+<!-- Main Navigation -->
+<nav class="main-nav">
+    <ul>
+        <li>
+            <a href="index.html" >
+                <i class="fa fa-home"></i> Home</a>
+        </li>
+        <li>
+            <a href="news.html">
+                <i class="fa fa-newspaper-o"></i> News</a>
+        </li>
+        <li>
+            <a href="gallery.html">
+                <i class="fa fa-image"></i> Gallery</a>
+        </li>
+        <li>
+            <a href="about.html">
+                <i class="fa fa-id-badge"></i> About Us</a>
+        </li>
+        <li>
+            <a href="contact.html" class="active">
+                <i class="fa fa-envelope"></i> Contact Us</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Latest News -->
+<section class="latest-news">
+    <p>
+        <span>Latest News:</span>
+        Hello Everyone I Am Rishbh Jha This Is My First Website If You Like This Website So Please Follow My Page
+    </p>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section">
+
+    <article class="contact-article">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name">
+            <br>
+            <input type="email" placeholder="Your Email">
+            <br>
+            <input type="text" placeholder="Your Subject">
+            <br>
+            <textarea rows="5" cols="20"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </article>
+
+</section>
+<!-- Main Footer -->
+<footer class="main-footer">
+    <h2>Copyright &copy;, My Technology Portal</h2>
+    <p>All Rights Reserved</p>
+    <small>Developed & Maintained by
+        <a href="https://github.com/RISHBHJHA" target="_blank">
+            <i class="fa fa-user-circle"></i> RISHBH JHA
+        </a>
+    </small>
+</footer>
+
+</body>
+</html>
